@@ -9,4 +9,14 @@ router.get('/', (req, res) => {
   res.send(users);
 });
 
+router.post('/', (req, res) => {
+  const user = req.body;
+
+  users.push({ ...user, id: uuidv4() });
+
+  res.send(
+    `User with the name ${user.firstName}, and surname ${user.lastName}, whose email is ${user.email} and whose birthdate is ${user.birthdate} added to the database`
+  );
+});
+
 export default router;
