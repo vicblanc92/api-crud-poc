@@ -11,15 +11,12 @@ describe('GET /users', () => {
 describe('POST /users', () => {
   describe('Add new user', () => {
     const user = {
-      name: 'Stuart',
+      name: '',
       surname: '',
       email: '',
       birthdate: '',
     };
-    // test('should respond with an object', async () => {
-    //   const response = await request(app).post('/users').send();
-    //   expect(response.user).toContainEqual('');
-    // });
+
     test('should respond with a 200 status code', async () => {
       const response = await request(app).post('/users').send(user);
       expect(response.statusCode).toBe(200);
