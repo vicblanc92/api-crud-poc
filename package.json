@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/vicblanc92/code-sherpas-test#readme",
   "dependencies": {
+    "esm": "^3.2.25",
     "express": "^4.17.3",
+    "sqlite3": "^5.0.4",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
