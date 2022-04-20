@@ -26,3 +26,8 @@ The project must have a Dockerfile that contains the instructions to assemble a 
 2. Run `npm start`
 
 The backend will run in https://localhost:5000
+
+- To access the array users the backend will run in https://localhost:5000/users
+- Use postman to prove the app
+
+
