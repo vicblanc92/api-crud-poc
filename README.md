@@ -2,7 +2,7 @@
 
 ## The project
 
-The project consist in build an application. The objective is to create a HTTP API to manage custome data for a small shop.
+The objective is to create a HTTP API to manage custome data for a small shop.
 API must have the following capabilities:
 
 1. Create a new customer. A customer must have the following attributes: name, surname, email and birthdate.
